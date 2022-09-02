@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".ui.luces.LucesFragment">
+
+    <LinearLayout
+        android:id="@+id/todo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|center_vertical"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp">>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgCuarto1"
+                        android:layout_width="match_parent"
+                        android:layout_height="78dp"
+                        android:src="@drawable/apagado" />
+
+                    <Button
+                        android:id="@+id/btn_cuarto1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cuarto 1" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgCuarto2"
+                        android:layout_width="match_parent"
+                        android:layout_height="78dp"
+                        android:src="@drawable/apagado" />
+
+                    <Button
+                        android:id="@+id/btn_cuarto2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cuarto 2" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgCuarto3"
+                        android:layout_width="match_parent"
+                        android:layout_height="78dp"
+                        android:src="@drawable/apagado" />
+
+                    <Button
+                        android:id="@+id/btn_cuarto3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cuarto 3" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:gravity="center">>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgBanno"
+                        android:layout_width="match_parent"
+                        android:layout_height="78dp"
+                        android:src="@drawable/apagado" />
+
+                    <Button
+                        android:id="@+id/btnBanno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Baño" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgSala"
+                        android:layout_width="match_parent"
+                        android:layout_height="78dp"
+                        android:src="@drawable/apagado" />
+
+                    <Button
+                        android:id="@+id/btnSala"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sala" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgComedor"
+                        android:layout_width="match_parent"
+                        android:layout_height="78dp"
+                        android:src="@drawable/apagado" />
+
+                    <Button
+                        android:id="@+id/btnComedor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Comedor" />
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgCocina"
+                        android:layout_width="match_parent"
+                        android:layout_height="78dp"
+                        android:src="@drawable/apagado" />
+
+                    <Button
+                        android:id="@+id/btnCocina"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cocina" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgPasillo"
+                        android:layout_width="match_parent"
+                        android:layout_height="78dp"
+                        android:src="@drawable/apagado" />
+
+                    <Button
+                        android:id="@+id/btnPasillo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pasillo" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgPatio"
+                        android:layout_width="match_parent"
+                        android:layout_height="78dp"
+                        android:src="@drawable/apagado" />
+
+                    <Button
+                        android:id="@+id/btnFrente"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Patio" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+
+
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgtodo"
+                        android:layout_width="match_parent"
+                        android:layout_height="78dp"
+                        android:src="@drawable/apagado" />
+
+                    <Button
+                        android:id="@+id/btnApagar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Apagar Todo" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+
+
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/feca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            </LinearLayout>
+        </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

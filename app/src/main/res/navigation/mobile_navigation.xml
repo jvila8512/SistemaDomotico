@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.sistemadomotico.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.sistemadomotico.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.sistemadomotico.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_luces"
+        android:name="com.example.sistemadomotico.ui.luces.LucesFragment"
+        android:label="Control de Luces"
+        tools:layout="@layout/fragment_luces" />
+    <fragment
+        android:id="@+id/crearPassFragment"
+        android:name="com.example.sistemadomotico.CrearPassFragment"
+        android:label="fragment_crear_pass"
+        tools:layout="@layout/fragment_crear_pass" />
+
+
+    <fragment
+        android:id="@+id/passFragment"
+        android:name="com.example.sistemadomotico.PassFragment"
+        android:label="fragment_pass"
+        tools:layout="@layout/fragment_pass" />
+
+    <fragment
+        android:id="@+id/p"
+        android:name="com.example.sistemadomotico.CrearPassFragment1"
+        android:label="Dibuje el Patrón" />
+
+    <fragment
+        android:id="@+id/nav_alarma"
+        android:name="com.example.sistemadomotico.ui.alarma.AlarmaFragment"
+        android:label="Control Alarma"
+        tools:layout="@layout/fragment_alarma" />
+    <fragment
+        android:id="@+id/nav_hora"
+        android:name="com.example.sistemadomotico.ui.Hora_Fecha.HoraFechaFragment"
+        android:label="Hora y Fecha"
+        tools:layout="@layout/fragment_hora_fecha" />
+
+</navigation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/drawable/apagado.xml" value="0.24259259259259258" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/drawable/bluetooth_connected_blanco.xml" value="0.24259259259259258" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/drawable/ic_baseline_bluetooth_connected_24.xml" value="0.24259259259259258" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/drawable/ic_baseline_bluetooth_disabled_24.xml" value="0.2462962962962963" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/drawable/ic_baseline_wb_incandescent_24.xml" value="0.24259259259259258" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/layout/activity_main.xml" value="0.2916666666666667" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/layout/content_main.xml" value="0.22" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/layout/fragment_alarma.xml" value="0.33" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/layout/fragment_crear_pass.xml" value="0.2916666666666667" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/layout/fragment_crear_pass1.xml" value="0.2916666666666667" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/layout/fragment_gallery.xml" value="0.2857142857142857" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/layout/fragment_home.xml" value="0.2916666666666667" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/layout/fragment_hora_fecha.xml" value="0.2916666666666667" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/layout/fragment_luces.xml" value="0.2857142857142857" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/layout/fragment_pass.xml" value="0.2916666666666667" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/layout/fragment_slideshow.xml" value="0.2916666666666667" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/layout/nav_header_main.xml" value="0.2916666666666667" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/menu/activity_main_drawer.xml" value="0.67" />
+        <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/menu/main.xml" value="0.2916666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

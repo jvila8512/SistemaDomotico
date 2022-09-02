@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_alarma"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Alarma" />
+
+
+        <item
+            android:id="@+id/nav_luces"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Luces" />
+
+        <item
+            android:id="@+id/nav_hora"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Hora y Fecha" />
+
+        <item
+            android:id="@+id/crearPassFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cambiar Patrón" />
+
+
+
+    </group>
+
+</menu>
