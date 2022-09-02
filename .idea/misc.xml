@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AppAdroide/SistemaDomotico/app/src/main/res/layout/fragment_luces.xml" value="0.33" />
         <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/drawable/apagado.xml" value="0.24259259259259258" />
         <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/drawable/bluetooth_connected_blanco.xml" value="0.24259259259259258" />
         <entry key="..\:/AppAdroide/SistemaDomoticoAlarma/app/src/main/res/drawable/ic_baseline_bluetooth_connected_24.xml" value="0.24259259259259258" />

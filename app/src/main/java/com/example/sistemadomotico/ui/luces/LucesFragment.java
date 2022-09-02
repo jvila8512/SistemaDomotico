@@ -21,13 +21,18 @@ import com.example.sistemadomotico.ui.interfaces.Comunicacion;
  * Use the {@link LucesFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class LucesFragment extends Fragment   {
+public class
+
+
+
+
+LucesFragment extends Fragment   {
 
 
     Button  BtnCuarto1,BtnCuarto2,BtnCuarto3,BtnBanno,BtnSala,BtnComedor,BtnCocina,BtnPasillo,BtnFrente, BtnApagar;
     int btnCuarto1=0,btnCuarto2=0,btnCuarto3=0,btnBanno=0,btnSala=0,btnComedor=0,btnCocina=0,btnPasillo=0,btnFrente=0;
 
-    TextView ora,feca;
+
     ImageView img,imgCuarto1,imgCuarto2,imgCuarto3,imgBanno,imgSala,imgComedor,imgCocina,imgPasillo,imgPatio;
 
 
@@ -81,8 +86,7 @@ public class LucesFragment extends Fragment   {
                 imgPasillo=vista.findViewById(R.id.imgPasillo);
                 imgPatio=vista.findViewById(R.id.imgPatio);
 
-                ora=vista.findViewById(R.id.ora);
-                feca=vista.findViewById(R.id.feca);
+
 
 
         BtnCuarto1.setOnClickListener(new View.OnClickListener() {
@@ -223,8 +227,6 @@ public class LucesFragment extends Fragment   {
 
 
                     ;
-            ora.setText(o);
-            feca.setText(f);
 
 
 
