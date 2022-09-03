@@ -62,7 +62,7 @@ public class HoraFechaFragment extends Fragment {
         ora=vista.findViewById(R.id.hora);
         feca=vista.findViewById(R.id.fecha);
         act=vista.findViewById(R.id.actualizar);
-        mostrar=vista.findViewById(R.id.mostrar);
+
 
         act.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,7 +91,7 @@ public class HoraFechaFragment extends Fragment {
                 int pm=calendario.get(Calendar.AM_PM);
 
 
-        mostrar.setText("f"+dia+"-"+mes+"-"+anio+"   "+hora+"-"+minutos+" ---"+pm+"#");
+        //mostrar.setText("f"+dia+"-"+mes+"-"+anio+"   "+hora+"-"+minutos+" ---"+pm+"#");
 
 
                 comunicar.enviarDatos("f"+dia+""+mes+""+anio+""+hora+""+minutos+""+pm);

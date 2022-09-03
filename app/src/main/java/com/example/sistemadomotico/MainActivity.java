@@ -746,8 +746,8 @@ public class MainActivity extends AppCompatActivity implements Comunicacion, Cam
                 } catch (IOException e) {
 
 
-                   // Toast.makeText(getBaseContext(), "Error de recibo", Toast.LENGTH_LONG).show();
-
+                   Toast.makeText(getBaseContext(), "Error de recibo", Toast.LENGTH_LONG).show();
+                    navController.navigate(R.id.p);
 
 
                     break;
@@ -763,11 +763,23 @@ public class MainActivity extends AppCompatActivity implements Comunicacion, Cam
                 //if you cannot write, close the application
                Toast.makeText(getBaseContext(), "La Conexión fallo", Toast.LENGTH_LONG).show();
                 // finish();
+                navController.navigate(R.id.p);
+                Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+
+                        navController.navigate(R.id.p);
 
 
+                        mostrarDialogo();
+
+
+                    }
+                }, 2000);
                // mostrarDialogo1();
 
-                //navController.navigate(R.id.p);
+
 
 
             }
